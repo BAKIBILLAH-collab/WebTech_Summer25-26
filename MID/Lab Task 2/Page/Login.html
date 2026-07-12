@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login Form</title>
+  <link rel="stylesheet" href="../Design/design.css">
+</head>
+<body>
+  <div class="container">
+    <form id="loginForm" onsubmit="return loginValidation()">
+      <h2>Login</h2>
+
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username">
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password">
+
+      <button type="submit">Login</button>
+      <div id="message" class="message"></div>
+    </form>
+  </div>
+
+  <script src="../JavaScript/Script.js"></script>
+</body>
+</html>
